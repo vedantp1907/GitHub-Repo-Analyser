@@ -1,0 +1,6 @@
+{
+  "name": "repo-analyser-server",
+  "type": "module",
+  "scripts": { "dev": "node --watch src/index.js", "start": "node src/index.js", "test": "node --test test/unit.test.js test/integration.test.js" },
+  "dependencies": { "axios": "^1.7.0", "cors": "^2.8.5", "dotenv": "^16.4.5", "express": "^4.19.2", "mongoose": "^8.5.0" }
+}
